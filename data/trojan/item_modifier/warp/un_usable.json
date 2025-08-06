@@ -1,0 +1,10 @@
+{
+  "function": "set_components",
+  "components": {
+    "!consumable": {},
+    "use_cooldown": {
+      "seconds": 0.01,
+      "cooldown_group": "trojan:warp"
+    }
+  }
+}

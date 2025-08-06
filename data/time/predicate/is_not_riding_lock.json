@@ -1,0 +1,13 @@
+{
+  "condition": "inverted",
+  "term": {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "vehicle": {
+        "type": "item_display",
+        "nbt": "{Tags:[time.lock]}"
+      }
+    }
+  }
+}

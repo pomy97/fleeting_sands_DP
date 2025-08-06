@@ -1,0 +1,71 @@
+{
+  "description": [
+    {
+      "translate": "enchantment.trojan.warp",
+      "fallback": "Warp"
+    }
+  ],
+  "supported_items": "air",
+  "anvil_cost": 0,
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "slots": ["mainhand", "offhand"],
+  "weight": 1,
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "trojan:enchantment/warp/check_useable"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": ["trojan:warp"]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "trojan:enchantment/warp/check_useable_off"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": ["trojan:warp"]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

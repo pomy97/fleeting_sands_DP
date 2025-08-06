@@ -1,0 +1,2 @@
+execute if entity @s[type=player] run function time:time_dial/dialation/undialate_player with entity @s
+execute if entity @s[type=#uthi:mobs_no_player] run function time:time_dial/dialation/undialate_entity

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "die": {
+      "trigger": "entity_hurt_player"
+    }
+  },
+  "rewards": {
+    "function": "time:hurt"
+  }
+}

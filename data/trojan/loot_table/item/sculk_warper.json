@@ -1,0 +1,147 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "netherite_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "diamond_sword",
+                "custom_data": {
+                  "trojan": {
+                    "item": "sculk_warper",
+                    "version": 1
+                  }
+                },
+                "item_name": {
+                  "translate": "trojan.item.enderblade.name",
+                  "fallback": "Sculk Warper",
+                  "color": "#058b9c",
+                  "italic": false
+                },
+                "custom_name": {
+                  "translate": "trojan.item.enderblade.name",
+                  "fallback": "Sculk Warper",
+                  "color": "#058b9c",
+                  "italic": false
+                },
+                "use_cooldown": {
+                  "seconds": 5,
+                  "cooldown_group": "trojan:warp"
+                },
+                "rarity": "uncommon",
+                "blocks_attacks": {
+                  "block_delay_seconds": 0,
+                  "block_sound": "block.iron.hit",
+                  "bypassed_by": "#bypasses_shield",
+                  "disable_cooldown_scale": 0,
+                  "disabled_sound": "intentionally_empty",
+                  "item_damage": {
+                    "base": 0,
+                    "factor": 0,
+                    "threshold": 0
+                  }
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                "",
+                {
+                  "text": "Abilities:",
+                  "color": "white",
+                  "bold":true,
+                  "italic": false
+                },
+                {
+                  "translate": "enchantment.trojan.warp",
+                  "fallback": "Warp",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "enchantment.trojan.warp.1",
+                  "fallback": "  - Teleports when used.",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "translate": "tooltip.trojan.level_requirement",
+                  "fallback": "  Cost: %s",
+                  "color": "gray",
+                  "with": [
+                    {
+                      "text": "1 Level",
+                      "color": "green"
+                    }
+                  ],
+                  "italic": false
+                },
+                {
+                  "translate": "tooltip.trojan.cooldown",
+                  "fallback": "  Cooldown: %s",
+                  "color": "gray",
+                  "with": [
+                    {
+                      "text": "5 Seconds",
+                      "color": "green"
+                    }
+                  ],
+                  "italic": false
+                },
+
+                {
+                  "translate": "enchantment.trojan.leech",
+                  "fallback": "Leech",
+                  "color": "#20cccc",
+                  "italic": false
+                },
+                {
+                  "translate": "enchantment.trojan.leech.1",
+                  "fallback": "  - Steals experience. Deals",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "translate": "enchantment.trojan.leech.2",
+                  "fallback": "  additional damage to mobs",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "translate": "enchantment.trojan.leech.3",
+                  "fallback": "  with little experience.",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Fleeting Sands SMP",
+                  "color": "#d3d387",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "trojan:warp": 1,
+                "trojan:leech": 1
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

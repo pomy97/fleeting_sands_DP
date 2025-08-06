@@ -1,0 +1,4 @@
+execute as @a at @s run playsound minecraft:block.note_block.hat master @s ~ ~ ~ 100 0
+execute as @a at @s run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 100 .55
+
+schedule function time:time_dial/dialation/effects/undialate/3 6t replace
