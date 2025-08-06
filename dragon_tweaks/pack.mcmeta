@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 71,
-        "description": "Stasis Datapack for Fleeting Sands - by @pomy97",
-        "supported_formats": [72, 81]
+        "description": "Fleeting's Dragon Tweaks - by @pomy97",
+        "supported_formats": [72, 82]
     }
 }
