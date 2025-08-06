@@ -1,1 +1,0 @@
-execute if predicate trojan:chance/50 run particle minecraft:sculk_soul ~ ~1 ~ .1 .2 .1 .1 5 force
