@@ -18,6 +18,7 @@
                     "item": "sands_of_time"
                   }
                 },
+                "item_model": "sand",
                 "rarity": "uncommon",
                 "max_stack_size": 64,
                 "lore": [
