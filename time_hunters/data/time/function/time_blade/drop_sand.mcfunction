@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ loot time:sands_of_time
+execute if predicate uthi:random/50 run loot spawn ~ ~ ~ loot time:sands_of_time
