@@ -6,5 +6,5 @@ scoreboard players reset @s time.flashback
 tag @s remove time.flashback
 
 #sfx
-playsound minecraft:block.respawn_anchor.deplete player @a ~ ~ ~ 2 1
-playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~ 2 0
+#playsound minecraft:block.respawn_anchor.deplete player @a ~ ~ ~ 2 1
+#playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~ 2 0
