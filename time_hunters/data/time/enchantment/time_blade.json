@@ -1,7 +1,7 @@
 {
   "description": [
     {
-      "text": "Slain enemies drop ",
+      "text": "Slain enemies can drop ",
       "color": "gray"
     },
     {
@@ -75,6 +75,10 @@
               "type": "#uthi:mobs",
               "nbt": "{Health:0.0f}"
             }
+          },
+          {
+            "condition": "random_chance",
+            "chance": 0.5
           }
         ]
       }
