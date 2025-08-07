@@ -14,7 +14,7 @@ data modify storage fleeting_sands:temp new_flashback.uuid set from entity @s UU
 function time:flashback/item/save_data with storage fleeting_sands:temp new_flashback
 
 # start timer
-scoreboard players set @s time.flashback 300
+scoreboard players set @s time.flashback 330
 
 # sfx
 playsound minecraft:block.respawn_anchor.set_spawn player @a ~ ~ ~ 2 1

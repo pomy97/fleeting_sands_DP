@@ -8,7 +8,7 @@
             "predicates": {
               "custom_data": {
                 "fleeting_sands": {
-                  "item": "flashback"
+                  "item": "sand_bolt"
                 }
               }
             }
@@ -19,19 +19,19 @@
   },
   "display": {
     "icon": {
-      "id": "magma_cream",
+      "id": "glowstone_dust",
       "components": {
         "enchantment_glint_override": true
       }
     },
     "title": {
-      "text": "Flashback",
+      "text": "Sand Bolt",
       "italic": false,
-      "color": "yellow"
+      "color": "white"
     },
     "description": [
       {
-        "translate": "item.minecraft.ender_pearl",
+        "translate": "item.minecraft.sugar",
         "color": "white"
       },
       {
@@ -44,7 +44,7 @@
         "color": "yellow"
       },
       {
-        "text": " x4",
+        "text": " x2",
         "color": "gray"
       }
     ],

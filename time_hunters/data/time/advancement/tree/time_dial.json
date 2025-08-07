@@ -27,7 +27,7 @@
     "title": {
       "text": "Time Dial",
       "italic": false,
-      "color": "yellow"
+      "color": "light_purple"
     },
     "description": [
       {
@@ -44,7 +44,7 @@
         "color": "yellow"
       },
             {
-        "text": " x32",
+        "text": " x16",
         "color": "gray"
       }
       

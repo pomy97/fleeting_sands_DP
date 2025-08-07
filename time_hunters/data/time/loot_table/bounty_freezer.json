@@ -6,43 +6,44 @@
       "entries": [
         {
           "type": "item",
-          "name": "magma_cream",
+          "name": "compass",
           "functions": [
             {
               "function": "set_components",
               "components": {
                 "enchantment_glint_override": true,
-                "item_name": "Flashback",
+                "item_name": "Bounty Jammer",
+                "custom_name": {
+                  "text": "Bounty Jammer",
+                  "italic": false,
+                  "color": "aqua"
+                },
                 "custom_data": {
                   "fleeting_sands": {
-                    "item": "flashback"
+                    "item": "bounty_freezer"
                   }
                 },
                 "consumable": {
                   "animation": "bow",
-                  "consume_seconds": 0.5,
+                  "consume_seconds": 1.5,
                   "has_consume_particles": false,
-                  "sound": "minecraft:entity.illusioner.prepare_mirror"
+                  "sound": "minecraft:block.glass.break"
                 },
+                "lodestone_tracker":{},
                 "use_cooldown": {
-                  "cooldown_group": "fleeting_sands:medium",
-                  "seconds": 30
+                  "cooldown_group": "fleeting_sands:powerful",
+                  "seconds": 180
                 },
-                "rarity": "uncommon",
-                "max_stack_size": 16,
+                "rarity": "rare",
+                "max_stack_size": 1,
                 "lore": [
                   {
-                    "text": "Sets a position savestate when used.",
+                    "text": "Freezes the Bounty Compass",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "Rewinds you back after 15 seconds",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "Sneak to rewind early",
+                    "text": "for one minute",
                     "color": "gray",
                     "italic": false
                   },

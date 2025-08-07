@@ -5,4 +5,4 @@ execute if score %cooldown time.dialTime matches 1.. run scoreboard players remo
 
 execute as @a at @s run function time:tick/player
 execute as @e[tag=time.fb_hitbox] at @s run function time:flashback/flashback_tick
-schedule function time:tick 1t
+schedule function time:clocks/tick 1t

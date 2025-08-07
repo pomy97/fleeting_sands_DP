@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use_time_dial": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "fleeting_sands": {
+                "item": "sand_bolt"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "time:sand_bolt/item/use"
+  }
+}

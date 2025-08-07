@@ -20,17 +20,17 @@ execute unless entity @s[gamemode=creative] run summon item ~ ~ ~ {Item:{id:"clo
         }\
       },\
       "consumable": {\
-        "animation": "drink",\
-        "consume_seconds": 0.01,\
+        "animation": "spear",\
+        "consume_seconds": 1.5,\
         "has_consume_particles": false,\
         "sound": "minecraft:entity.illusioner.prepare_blindness"\
       },\
       "use_cooldown": {\
-        "cooldown_group": "fleeting_sands:time_dial",\
+        "cooldown_group": "fleeting_sands:global",\
         "seconds": 1\
       },\
-      "rarity": "uncommon",\
-      "max_stack_size": 8,\
+      "rarity": "epic",\
+      "max_stack_size": 1,\
       "lore": [\
         {\
           "text": "Freezes all mobs for 10 seconds",\

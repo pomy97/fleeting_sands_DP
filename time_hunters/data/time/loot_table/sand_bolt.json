@@ -6,45 +6,46 @@
       "entries": [
         {
           "type": "item",
-          "name": "magma_cream",
+          "name": "glowstone_dust",
           "functions": [
             {
               "function": "set_components",
               "components": {
                 "enchantment_glint_override": true,
-                "item_name": "Flashback",
+                "item_name": "Sand Bolt",
                 "custom_data": {
                   "fleeting_sands": {
-                    "item": "flashback"
+                    "item": "sand_bolt"
                   }
                 },
                 "consumable": {
-                  "animation": "bow",
-                  "consume_seconds": 0.5,
+                  "animation": "drink",
+                  "consume_seconds": 0.01,
                   "has_consume_particles": false,
-                  "sound": "minecraft:entity.illusioner.prepare_mirror"
+                  "sound": "minecraft:block.beacon.activate"
                 },
                 "use_cooldown": {
-                  "cooldown_group": "fleeting_sands:medium",
-                  "seconds": 30
+                  "cooldown_group": "fleeting_sands:weak",
+                  "seconds": 15
                 },
-                "rarity": "uncommon",
+                "rarity": "common",
                 "max_stack_size": 16,
                 "lore": [
                   {
-                    "text": "Sets a position savestate when used.",
+                    "text": "Fast-forwards you for 5 seconds",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "Rewinds you back after 15 seconds",
+                    "text": "Half-inspired from ",
                     "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "Sneak to rewind early",
-                    "color": "gray",
-                    "italic": false
+                    "italic": false,
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "HOURS"
+                      }
+                    ]
                   },
                   "",
                   {
