@@ -34,7 +34,12 @@
                   "time:time_blade": 1
                 },
                 "minecraft:item_name": {
-                  "translate": "Blade of Time"
+                  "text": "Blade of Time"
+                },
+                 "custom_name": {
+                  "text": "Blade of Time",
+                  "italic": false,
+                  "color": "yellow"
                 },
                 "minecraft:max_damage": 2031,
                 "minecraft:max_stack_size": 1,

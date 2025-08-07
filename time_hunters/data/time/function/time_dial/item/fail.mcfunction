@@ -29,7 +29,7 @@ execute unless entity @s[gamemode=creative] run summon item ~ ~ ~ {Item:{id:"clo
         "cooldown_group": "fleeting_sands:time_dial",\
         "seconds": 1\
       },\
-      "rarity": "rare",\
+      "rarity": "uncommon",\
       "max_stack_size": 8,\
       "lore": [\
         {\

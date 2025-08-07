@@ -28,7 +28,7 @@
                   "cooldown_group": "fleeting_sands:flashback",
                   "seconds": 30
                 },
-                "rarity": "rare",
+                "rarity": "uncommon",
                 "max_stack_size": 16,
                 "lore": [
                   {
