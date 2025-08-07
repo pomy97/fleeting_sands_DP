@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "get_sand": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "fleeting_sands": {
+                  "item": "flashback"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "magma_cream",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "text": "Flashback",
+      "italic": false,
+      "color": "yellow"
+    },
+    "description": [
+      {
+        "translate": "item.minecraft.ender_pearl",
+        "color": "white"
+      },
+      {
+        "text": " x1",
+        "color": "gray"
+      },
+      "\n",
+      {
+        "text": "Sands of Time",
+        "color": "yellow"
+      },
+      {
+        "text": " x8",
+        "color": "gray"
+      }
+    ],
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "time:tree/root"
+}
