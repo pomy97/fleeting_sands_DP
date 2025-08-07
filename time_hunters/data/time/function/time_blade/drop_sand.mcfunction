@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot time:sands_of_time
