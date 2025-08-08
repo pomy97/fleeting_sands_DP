@@ -58,4 +58,3 @@ scoreboard players reset #Value kits.mafs
 
 #STORE THAT SUCKER
 function kits:store/store with storage kits:values
-

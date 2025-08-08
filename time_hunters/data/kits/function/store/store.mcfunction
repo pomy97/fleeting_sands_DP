@@ -3,8 +3,11 @@ $data modify storage kits:kits kits.$(kits).1 set from entity @e[distance=...001
 $data modify storage kits:kits kits.$(kits).2 set from entity @e[distance=...001,tag=kit.chest_2,type=chest_minecart,limit=1] Items
 
 #remove temp storage
-tp @e[distance=...001,tag=kit.chest_1,type=chest_minecart] 0 -97 0
-tp @e[distance=...001,tag=kit.chest_2,type=chest_minecart] 0 -97 0
+data remove entity @n[tag=kit.chest_1] Items
+data remove entity @n[tag=kit.chest_2] Items
+
+kill @e[tag=kit.chest_1]
+kill @e[tag=kit.chest_2]
 
 #message
 $tellraw @s ["\n",\

@@ -52,8 +52,11 @@ item replace entity @s armor.feet from entity @e[distance=...001,tag=kit.chest_2
 item replace entity @s weapon.offhand from entity @e[distance=...001,tag=kit.chest_2,type=chest_minecart,limit=1] container.13
 
 #remove temp storage
-tp @e[distance=...001,tag=kit.chest_1,type=chest_minecart] 0 -97 0
-tp @e[distance=...001,tag=kit.chest_2,type=chest_minecart] 0 -97 0
+data remove entity @n[tag=kit.chest_1] Items
+data remove entity @n[tag=kit.chest_2] Items
+
+kill @e[tag=kit.chest_1]
+kill @e[tag=kit.chest_2]
 
 #message
 $tellraw @s ["\n",\
