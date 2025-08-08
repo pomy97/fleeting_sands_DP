@@ -1,5 +1,5 @@
 advancement revoke @s only time:use_flashback
-
+execute unless score %active fleeting.manhunt matches 1 run return fail
 tag @s add time.flashback
 
 #get flashback data
@@ -17,6 +17,7 @@ function time:flashback/item/save_data with storage fleeting_sands:temp new_flas
 scoreboard players set @s time.flashback 330
 
 # sfx
+playsound minecraft:entity.illusioner.prepare_mirror player @a ~ ~ ~ 2 1
 playsound minecraft:block.respawn_anchor.set_spawn player @a ~ ~ ~ 2 1
 playsound minecraft:block.respawn_anchor.charge player @a ~ ~ ~ 2 2
 

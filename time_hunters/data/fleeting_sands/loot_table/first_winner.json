@@ -1,0 +1,14 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "fleeting_sands:second_egg"
+        }
+      ]
+    }
+  ]
+}

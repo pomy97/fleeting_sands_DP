@@ -27,7 +27,7 @@
                   "animation": "bow",
                   "consume_seconds": 1.5,
                   "has_consume_particles": false,
-                  "sound": "minecraft:block.glass.break"
+                  "sound": "intentionally_empty"
                 },
                 "lodestone_tracker":{},
                 "use_cooldown": {
@@ -43,7 +43,7 @@
                     "italic": false
                   },
                   {
-                    "text": "for one minute",
+                    "text": "for 30 seconds",
                     "color": "gray",
                     "italic": false
                   },

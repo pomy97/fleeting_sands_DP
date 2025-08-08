@@ -1,0 +1,2 @@
+schedule clear fleeting_sands:manhunt/start
+function fleeting_sands:manhunt/start

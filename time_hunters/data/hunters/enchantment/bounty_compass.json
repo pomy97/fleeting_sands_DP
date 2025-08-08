@@ -1,0 +1,51 @@
+{
+  "supported_items": "air",
+  "anvil_cost": 1,
+  "description": {
+    "translate": "item.hunters.bounty_compass.description_alt",
+    "fallback": "Hold in %s to update tracked position",
+    "with": [
+      {
+        "translate": "options.mainHand"
+      }
+    ],
+    "color": "gray"
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": ["mainhand"],
+  "weight": 1,
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "hunters:item/bounty_compass/track/tick"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": "{hunters:{bounty_compass_data:{active:true,bound:true}}}"
+                  }
+                }
+              },
+              "type": "player"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

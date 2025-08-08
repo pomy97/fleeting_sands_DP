@@ -22,7 +22,7 @@
                   "animation": "spear",
                   "consume_seconds": 1.5,
                   "has_consume_particles": false,
-                  "sound": "minecraft:entity.illusioner.prepare_blindness"
+                  "sound": "intentionally_empty"
                 },
                 "use_cooldown": {
                   "cooldown_group": "fleeting_sands:global",
@@ -32,7 +32,7 @@
                 "max_stack_size": 1,
                 "lore": [
                   {
-                    "text": "Freezes all mobs for 10 seconds",
+                    "text": "Freezes all mobs for 20 seconds",
                     "color": "gray",
                     "italic": false
                   },

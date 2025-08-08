@@ -22,7 +22,7 @@
                   "animation": "bow",
                   "consume_seconds": 0.5,
                   "has_consume_particles": false,
-                  "sound": "minecraft:entity.illusioner.prepare_mirror"
+                  "sound": "intentionally_empty"
                 },
                 "use_cooldown": {
                   "cooldown_group": "fleeting_sands:medium",

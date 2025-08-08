@@ -1,0 +1,1 @@
+bossbar set fleeting:manhunt visible false

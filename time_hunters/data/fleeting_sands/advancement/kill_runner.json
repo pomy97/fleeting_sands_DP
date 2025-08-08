@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill_runner": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "player",
+          "team": "hunted"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "fleeting_sands:manhunt/tag_winner"
+  }
+}

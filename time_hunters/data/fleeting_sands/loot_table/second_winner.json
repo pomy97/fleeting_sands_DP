@@ -1,0 +1,23 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "elytra",
+          "functions": [
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "mending": 1,
+                "unbreaking": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

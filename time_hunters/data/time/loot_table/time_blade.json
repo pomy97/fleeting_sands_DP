@@ -9,24 +9,28 @@
           "name": "golden_sword",
           "functions": [
             {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 7,
+                  "id": "minecraft:base_attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -2.4000000953674316,
+                  "id": "minecraft:base_attack_speed",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
               "function": "set_components",
               "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "type": "minecraft:attack_damage",
-                    "amount": 7,
-                    "id": "minecraft:base_attack_damage",
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "type": "minecraft:attack_speed",
-                    "amount": -2.4000000953674316,
-                    "id": "minecraft:base_attack_speed",
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ],
                 "minecraft:enchantable": {
                   "value": 15
                 },
@@ -36,7 +40,7 @@
                 "minecraft:item_name": {
                   "text": "Blade of Time"
                 },
-                 "custom_name": {
+                "custom_name": {
                   "text": "Blade of Time",
                   "italic": false,
                   "color": "yellow"

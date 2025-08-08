@@ -1,0 +1,2 @@
+schedule function fleeting_sands:manhunt/start 120s
+tellraw @a[tag=fleeting.hunted] {color:"gray",text:"Manhunt starting in 2 minutes!\nYour inventory will be cleared and you will be given a kit for the hunt, so stash anything important!"}

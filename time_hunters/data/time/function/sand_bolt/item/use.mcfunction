@@ -1,5 +1,7 @@
 advancement revoke @s only time:use_sand_bolt
 
+execute unless score %active fleeting.manhunt matches 1 run return fail
+
 playsound block.beacon.activate player @a ~ ~ ~
 playsound block.beacon.activate player @a ~ ~ ~
 playsound block.beacon.activate player @a ~ ~ ~
