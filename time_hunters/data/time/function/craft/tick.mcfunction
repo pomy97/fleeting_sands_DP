@@ -4,4 +4,4 @@ execute as @s[nbt={Item:{count:8}}] if entity @n[type=item,nbt={Item:{id:"minecr
 
 execute as @s[nbt={Item:{count:4}}] if entity @n[type=item,nbt={Item:{id:"minecraft:ender_pearl",count:1}},distance=..1] run function time:craft/flashback
 
-execute as @s[nbt={Item:{count:1}}] if entity @n[type=item,nbt={Item:{id:"minecraft:sugar",count:1}},distance=..1] run function time:craft/sand_bolt
+execute as @s[nbt={Item:{count:2}}] if entity @n[type=item,nbt={Item:{id:"minecraft:sugar",count:1}},distance=..1] run function time:craft/sand_bolt
