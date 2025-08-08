@@ -6,6 +6,7 @@ team modify hunted friendlyFire true
 scoreboard objectives add fleeting.manhunt dummy
 scoreboard objectives add compass trigger
 scoreboard objectives add leave trigger
+scoreboard objectives add kit trigger
 
 
 bossbar add fleeting:manhunt [{text:"Use ",color:white},{text:"/trigger compass",color:green},{text:" to get a tracking compass"}]
