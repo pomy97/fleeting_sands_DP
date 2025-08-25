@@ -6,37 +6,7 @@
     },
     {
       "text": "Sands of Time",
-      "color": "yellow",
-      "hover_event": {
-        "action": "show_item",
-        "id": "glowstone_dust",
-        "count": 1,
-        "components": {
-          "enchantment_glint_override": true,
-          "item_name": "Sands of Time",
-          "custom_data": {
-            "fleeting_sands": {
-              "item": "sands_of_time"
-            }
-          },
-          "rarity": "uncommon",
-          "max_stack_size": 64,
-          "lore": [
-            {
-              "text": "Used to craft utility items",
-              "color": "gray",
-              "italic": false
-            },
-            "",
-            {
-              "text": "Fleeting Sands SMP",
-              "color": "#d3d387",
-              "bold": true,
-              "italic": false
-            }
-          ]
-        }
-      }
+      "color": "yellow"
     }
   ],
   "supported_items": "air",
